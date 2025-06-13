@@ -43,20 +43,20 @@ Make sure you have the following before you get started:
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/Palwisha-18/interview_prep_buddy.git
-cd interview_prep_buddy
+git clone https://github.com/sarmishra/Interview-Prep-Buddy.git
+cd Interview-Prep-Buddy
 ```
 
 2. **Create and activate a virtual environment:**
 
 ```bash
-python -m venv interview_env
+python -m venv env
 
 # Activate it
 # Windows:
-interview_env\Scripts\activate
+env\Scripts\activate
 # macOS/Linux:
-source interview_env/bin/activate
+source env/bin/activate
 ```
 
 3. **Install Ollama:**
