@@ -86,4 +86,4 @@ streamlit run main.py
 
 ## Landing Page Preview
 
-![alt text](https://github.com/sarmishra/Interview-Prep-Budy/blob/main/landing_page_interview_prep_budy.png?raw=true)
+![alt text](https://github.com/sarmishra/Interview-Prep-Buddy/blob/main/landing_page_interview_prep_budy.png)
