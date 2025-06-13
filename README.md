@@ -1,89 +1,109 @@
 # Interview Prep Buddy 🎯
 
-Interview Prep Buddy is an AI-powered interview preparation tool that helps candidates practice and improve their interview skills through real-time feedback on their responses. It uses local AI models for processing, making it free to use and privacy-focused.
+**Interview Prep Buddy** is an AI-driven tool designed to help you sharpen your interview skills with real-time, personalized feedback — all while keeping your data private through 100% local processing.
 
-## Current Features ✨
+## 🔍 Features at a Glance
 
-- **Speech-to-Text Conversion**: Transcribes your responses using Whisper for detailed analysis
-- **AI-Powered Feedback**: Provides comprehensive feedback using Ollama on:
-  - Response content and relevance
-  - Answer structure
-  - Overall delivery
-- **Text-to-Speech Feedback**: Delivers feedback in audio format using gTTS
-- **Role-based Questions**: Generates relevant interview questions based on your target role
-- **Interactive UI**: User-friendly interface built with Streamlit
-- **Local Processing**: All AI operations run locally on your machine
+- **🎤 Speech Recognition with Whisper**  
+  Accurately transcribes your spoken answers for deeper analysis.
 
-## Prerequisites 🔧
+- **🤖 Intelligent Feedback via Ollama**  
+  Evaluates your response for:
+  - Content relevance and clarity  
+  - Logical structure and coherence  
+  - Overall delivery and tone
 
-Before running the application, ensure you have:
+- **🔊 Audio Feedback with gTTS**  
+  Converts AI-generated feedback into speech so you can listen and learn.
 
-- Python 3.7 or higher installed
-- Ollama installed on your system
-- A microphone for audio recording
-- Sufficient system resources to run local AI models
+- **🎯 Role-Specific Question Generation**  
+  Generates targeted interview questions based on your chosen job role.
 
-## Installation 📦
+- **🖥️ Intuitive UI with Streamlit**  
+  Clean and responsive interface for a smooth practice experience.
 
-1. Clone the repository:
+- **🔒 100% Local AI Processing**  
+  No cloud dependencies — all models run locally for privacy and performance.
+
+---
+
+## ⚙️ Requirements
+
+Make sure you have the following before you get started:
+
+- Python 3.7 or newer  
+- Ollama installed and configured  
+- A working microphone  
+- Adequate system resources to run local AI models smoothly
+
+---
+
+## 🛠️ Setup Instructions
+
+1. **Clone the repository:**
 
 ```bash
 git clone https://github.com/Palwisha-18/interview_prep_buddy.git
 cd interview_prep_buddy
 ```
 
-2. Create and activate a virtual environment:
+2. **Create and activate a virtual environment:**
 
 ```bash
 python -m venv interview_env
-# On Windows
+
+# Activate it
+# Windows:
 interview_env\Scripts\activate
-# On macOS/Linux
+# macOS/Linux:
 source interview_env/bin/activate
 ```
 
-3. Install Ollama:
+3. **Install Ollama:**
 
 ```bash
-# For Linux
+# Linux:
 curl -fsSL https://ollama.com/install.sh | sh
 
-# For Windows or macOS or Linux
-# Download from https://ollama.com/download
+# macOS/Windows:
+# Download the installer from https://ollama.com/download
 ```
 
-4. Pull the required Ollama model:
+4. **Download the required Ollama model:**
 
 ```bash
 ollama pull mistral
 ```
 
-5. Install the required Python dependencies:
+5. **Install Python dependencies:**
 
 ```bash
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-## Usage 🚀
+---
 
-1. Start Ollama service (should be running in background)
+## 🚀 How to Use
 
-2. Start the application:
+1. **Ensure the Ollama service is running** in the background.
+2. **Launch the app:**
 
 ```bash
 streamlit run main.py
 ```
 
-3. Use the application:
-   - Enter the role you're preparing for
-   - Wait for the question to be generated
-   - Click the microphone icon to record your response
-   - Stop the recording when finished
-   - Review your transcribed response
-   - Read and listen to the AI-generated feedback
-   - Optionally download the feedback audio
+3. **Get started:**
+   - Enter the job role you're preparing for
+   - Receive a tailored interview question
+   - Click the microphone to record your answer
+   - Stop recording when you're done
+   - Review the transcription of your answer
+   - Read or listen to the AI-generated feedback
+   - Optionally download the feedback audio for later review
 
-## Landing Page Preview
+---
 
-![alt text](https://github.com/sarmishra/Interview-Prep-Buddy/blob/main/landing_page_interview_prep_budy.png)
+## 🖼️ Preview
+
+![Landing Page](https://github.com/sarmishra/Interview-Prep-Buddy/blob/main/landing_page_interview_prep_budy.png)
